@@ -29,6 +29,8 @@
 			{
 				$ergebnis ="Die Berechnung konnte nicht durchgeführt werden. Eine oder beide Seitenlängen dürfen nicht Null sein.";
 				
+				
+				
 			}
 		}
 	?>

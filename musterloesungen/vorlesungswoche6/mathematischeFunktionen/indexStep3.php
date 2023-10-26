@@ -20,6 +20,7 @@
       <th scope="col">sin(x)</th>
     </tr>
 	  <?php 
+	  	// Einführung einer Schleife für die Berechnung der Sinus-Werte
 	  	echo "<tr>";
 	  for($x=-1000; $x<=10;$x++)
 	  {

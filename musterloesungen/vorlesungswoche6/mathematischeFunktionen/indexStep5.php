@@ -22,7 +22,7 @@
     </tr>
 	  <?php 
 	  /*
-	  
+	  	Wie 4, aber Ergänzung einer weiteren Berechnung für den Cosinus.
 	  */
 	  	echo "<tr>";
 	  for($x=-10; $x<=10;$x++)

@@ -8,9 +8,9 @@
 <body>
 	
 	<?php
-	
+		// Berechnung des Sinus 
 		$wert = sin(1);
-	
+		// und Ausgabe
 		echo $wert;
 	
 	?>
@@ -23,7 +23,8 @@
     </tr>
     <tr>
       <td>1</td>
-      <td><?php echo $wert?></td>
+		<!--- Ausgabe innerhalb der Tabelle --->
+      <td><?php  echo $wert?></td>
     </tr>
     
   </tbody>

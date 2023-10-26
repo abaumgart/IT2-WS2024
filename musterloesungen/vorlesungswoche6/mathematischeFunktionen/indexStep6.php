@@ -22,7 +22,7 @@
     </tr>
 	  <?php 
 	  /*
-	  
+	  	Wie 5 aber mit Aufsummierung der Werte, um in der Fusszeile einen Wert auszugeben. Besonderheit: Es gibt mehrere PHP-Blöcke, die jeweils auf die Variablen in anderen Blöcken zugreifen.
 	  */
 	  $sinSumme = 0;
 	  $cosSumme = 0;

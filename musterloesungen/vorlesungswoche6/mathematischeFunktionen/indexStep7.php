@@ -11,6 +11,15 @@
 <body>
 	
 	<?php
+		/*
+		Wie 6 aber mit dem Ziel, ein dynamisches GoogleChart Diagramm zu erzeugen. Die Dokumentation zum gesamten Thema finden Sie hier:
+		https://developers.google.com/chart/interactive/docs?hl=de
+		
+		Auf dieser Seite 7 ist der von Google einzubindene Code einfach nur eingefügt, damit ein Diagram angezeigt wird. 
+		Das gesamte dafür notwendige JavaScript stammt von Google und muss bzgl. der darzustellenden Daten angepasst werden. Wie, steht auf Seite 8
+		*/
+	
+	
 		include('functions/functions.php');
 		
 	

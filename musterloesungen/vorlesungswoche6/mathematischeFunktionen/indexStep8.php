@@ -8,6 +8,7 @@
 
 <body>
 	<?php
+		// Vollständige Umsetzung der Funktionen und grafische Darstellung
 			include ('functions/functions.php');
 	
 	?>
@@ -44,6 +45,7 @@
           ['f(x)', 'sin(x)', 'cos(x)'],
 			
 			<?php 
+			// An dieser Stelle müssen die Google-Daten ersetzt werden durch die Ergebnisse, die aus der mathematischen Berechnung stammen.
 				for($x=-10;$x<=10;$x=$x+1)
 				  {
 					echo "[ ".$x.",".calcFunctionSin($x).",".calcFunctionCos($x)."],";

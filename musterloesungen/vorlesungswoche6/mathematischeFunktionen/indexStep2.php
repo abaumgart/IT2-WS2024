@@ -8,7 +8,7 @@
 <body>
 	
 	<?php
-	
+		// Berechnung von drei Sinus-Werten und deren Ausgabe in einer HTML-Tabelle
 		$wert = sin(1);
 		$wert2 = sin(2);
 		$wert3 = sin(3);
