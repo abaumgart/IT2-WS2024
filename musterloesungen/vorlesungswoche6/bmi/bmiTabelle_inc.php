@@ -1,0 +1,55 @@
+<table width="200" border="1">
+  <thead>
+	<tr>
+      <th scope="col">Gewicht [kg]</th>
+      <th scope="col">BMI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>65</td>
+      <td>22,5</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>22,8</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>23,2</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>23,5</td>
+    </tr>
+	  <tr>
+      <td>69</td>
+      <td>23,8</td>
+    </tr>
+	  <tr>
+      <td>70</td>
+      <td>24,2</td>
+    </tr>
+	  <tr>
+      <td>71</td>
+      <td>24,5</td>
+    </tr>
+	  <tr>
+      <td>72</td>
+      <td>24,9</td>
+    </tr>
+	  <tr>
+      <td>73</td>
+      <td>25,2</td>
+    </tr>
+	  <tr>
+      <td>74</td>
+      <td>25,6</td>
+    </tr>
+	  <tr>
+      <td>75</td>
+      <td>25,9</td>
+    </tr>
+  </tbody>
+	
+</table>

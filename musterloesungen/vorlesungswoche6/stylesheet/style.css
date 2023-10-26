@@ -1,0 +1,30 @@
+/* CSS Document */
+tr:nth-child(odd) {background-color: #F5AAB9;}
+tr:nth-child(even) {background-color: #ECECEC;}
+
+.hinweis {color: red;}
+.ergebnis {color: green;}
+
+/* 
+	Wird in FallDialogListeEineSeite.php verwendet, um
+	das Layout der Seite so anzupassen, dass im Ergebnis 
+	links die Tabelle und rechts da Diagramm dargestellt wird.
+*/
+
+.tabledata { 
+	position:static;
+	width: 300px;
+	padding: 15px;
+	border: 1px sienna;
+	background-color: lightgrey;
+	}
+
+.diagram { 
+	position:absolute;
+	width: 600px;
+	top: 250px;
+	left: 300px;
+	padding: 15px;
+	border: 1px sienna;
+	background-color: #F5E5E6;
+	}

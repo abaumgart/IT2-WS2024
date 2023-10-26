@@ -3,40 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <title>Unbenanntes Dokument</title>
+	<link rel="stylesheet" type="text/css" href="musterloesungen/vorlesungswoche3/stylesheet/style.css">
 </head>
 
 <body>
-	<h1>Das erste Programm Vor- und Nachname wird aus Formular übernommen und angezeigt.</h1>
-	<form action ="adresse.php" method="post">
-		<p><input name="vor">Vorname</p>
-		<p><input name="nach">Nachname</p>
-		<p><input type="submit"></p>
-	</form>
-	
-	
-	
 	<?php
-		// Umwandlung von Zeichenketten in Zahlenwerte
-		$a = 435;
-		echo intval($a)."<br>";
-		// Variable b wird angelegt und die Zeichenkette 22.6 zugewiesen
-		$b="22.6";
-		// Inhalt von b wird in Integerwert umgewandelt
-		echo intval($b)."<br>";
-		// Inhalt von b wird in doublewert umgewandelt
-		echo doubleval($b)."<br>";
-		// Kenntnisse werden im zweiten Programm benötigt
+		function add($z1,$z2)
+		{
+			$ergebnis=$z1+$z2;
+			return $ergebnis;
+		}
+	
+	
+		function trennlinie($anzahlZeichen,$zeichen)
+		{
+			echo "<p>";
+			for($i=1;$i<=$anzahlZeichen;$i++)
+				{
+				echo $zeichen;
+				}
+			echo "</p>";
+		}
 	?>
+	<h1>Schleifen</h1>
+	<?php trennlinie(2,"z")?>
+	<?php echo(add(2,3));?>
 	
-	<h1>Zweites Programm: Addition zweier Zahlen</h1>
-	<form action ="ergebnis.php" method="post">
-		<p><input name="z1">Zahl 1</p>
-		<p><input name="z2">Zahl 2</p>
-		<p><input type="submit"></p>
-	</form>
+	<table border="1">
+	<?php	
+		for($reihe=1;$reihe<=10;$reihe++)
+		//	Startbedingung			Endbedingung		Schrittweite
+			{
+				echo "<tr>";
+				for($spalte=1;$spalte<=10;$spalte++)
+				//	Startbedingung			Endbedingung		Schrittweite
+					{
+						$ergebnis=$reihe*$spalte;
+						echo "<td>";
+						echo $ergebnis;
+						echo "</td>";
+					}
+					echo "</tr>";
+			}
+	
+	?>
+	</table>
+	<?php trennlinie(30,"=")?>
 	
 	
-	
+	<?php trennlinie(34,"-")?>
+	<?php trennlinie(54,"+")?>
+	<?php trennlinie(77,"m")?>
 	
 	
 	
